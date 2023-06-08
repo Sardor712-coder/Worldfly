@@ -1,0 +1,151 @@
+header{
+    background-image: url('/img/hero_bc_img.png');
+    background-size: cover;
+    background-position: top;
+}
+.heroSection{
+    padding-top: 16.2rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.heroTop{   
+    padding: 0 45rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 42.9rem;
+}
+h1{
+    font-family: 'DM Serif Display', serif;
+    font-size: 8.4rem;
+    line-height: 112%;
+    text-align: center;
+    color: var(--text-and-bc-color);
+    text-shadow: 0 0.6rem 0.2rem rgba(0, 0, 0, 0.2);
+}
+.heroTop > p{
+    font-family: sans-serif;
+    font-size: 2rem;
+    line-height: 2.7rem;
+    text-align: center;
+    color: var(--footerbc-color);
+    padding-bottom: 3rem;
+}
+.heroTop > button{
+    background: var(--text-and-bc-color);
+    border: 2px solid #fff;
+    box-shadow: 0 1rem 4.7rem rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 125%;
+    color: #fff;
+    padding: 1.8rem 5.1rem;
+}
+/******* INPUT BOX *******/
+.heroBottom{  
+    width: 100%;
+    bottom: -14.0%;
+    position: absolute;
+    background-color: #F3F6F6;
+    border-radius: 0 1.5rem 1.5rem 1.5rem;
+    padding: 4rem 2rem 2.5rem;
+    position: absolute;
+}
+.miniBox{
+    position: absolute;
+    top: -30.8%;
+    padding: 1.4rem 6.1rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 4rem;
+    text-align: center;
+    color: var(--text-and-bc-color);
+    background-color: #fff;
+    opacity: 0.9;
+    border-radius: 1rem 1rem 0 0;
+}
+.one{
+    background-color:#F3F6F6;;
+    padding: 2.3rem 7.3rem;
+    top: -39.5%;
+    left: 0;
+    opacity: 1;
+}
+.two{
+    left: 28.5rem;
+}
+.three{
+    left: 57.3rem;
+}
+.form{
+    display: flex;
+    align-items: end;    
+    gap: 2.5rem;
+}
+.formBox{
+    width: 18%;
+}
+.formBox > p{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    color: #009394;
+    padding-bottom: 0.5rem;
+}
+.input{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 1rem;
+    background: #fff;
+    border: 1px solid var(--text-and-bc-color);
+    border-radius: 1rem;
+}
+.input > input{
+    width: 70%;
+    border:  none;
+    font-weight: 600;
+    font-size: 1.7rem;
+    line-height: 125%;
+    color: var(--text-and-bc-color);
+}
+.form > button{
+    background: var(--main-and-btn-text-color);
+    border-radius: 1rem;
+    border: none;
+    padding-top: 2rem;
+    padding-right: 4rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    font-weight: 700;
+    font-size: 2.2rem;
+    text-align: center;
+    color: var(--text-and-bc-color);
+}
+.form > span{
+    margin-bottom: 1%;
+}
+.heroBottom > label > input{
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--text-and-bc-color);
+    border-radius: 3px;
+}
+.heroBottom > label{
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.9rem;  
+    color: #009394;
+    cursor: pointer;
+}
