@@ -1,0 +1,42 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+/* font-family: 'DM Serif Display', serif; */
+
+
+/* COLORS */
+:root {
+      --main-and-btn-text-color: #00E0C7;
+      --text-and-bc-color: #2A3950;
+      --footerbc-color: #006270;
+}
+
+/* BASIC STYLE */
+*,
+*::after,
+*::before {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+
+html {
+      font-size: 62.5%;
+      /* font-size 10px */
+}
+
+body {
+      background-color: var(--text-and-bc-color);
+}
+
+li {
+      list-style: none;
+}
+
+a {
+      text-decoration: none;
+}
+
+.container {
+      max-width: 162rem;
+      margin: 0 auto;
+}
