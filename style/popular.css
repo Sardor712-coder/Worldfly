@@ -2,7 +2,7 @@ body{
    
 }
 .popular {
-   
+   overflow: hidden;
 }
 
 .public_h2 {
