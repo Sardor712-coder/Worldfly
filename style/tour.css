@@ -1,0 +1,36 @@
+.popular{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+}
+.left_right_icon{
+    display: flex;
+    gap: 2rem;
+}
+.lokation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    width: 100%;
+}
+.enjoy_img_1{
+    width: 30%;
+    justify-content: start;
+}
+.iv{
+    display: flex;
+    justify-content: start;
+}
+.enjoy_img_1>img{
+    border-radius: 1rem;
+}
+.enjoy{
+    display: flex;
+    gap: 5rem;
+    
+}
+.body{
+    overflow: hidden;
+}
