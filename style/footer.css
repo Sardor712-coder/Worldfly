@@ -1,0 +1,77 @@
+footer{
+    background-color: var(--footerbc-color);
+}
+.footerTop{
+    display: flex;
+    justify-content: space-between;
+    padding: 4.5rem 0 6.9rem 0;
+    gap: 26rem;
+}
+.footerLeft{
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 3rem;
+}
+.footerLeft > p{
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+    color: #fff;
+}
+.footerLog > img{
+    width: 100%;
+    height: 100%;
+}
+.footerRight{
+    width: 52%;
+    display: flex;
+    justify-content: space-between;
+}
+.footerCard{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+}
+.footerCard > span{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+.footerCard > a{
+    font-family: sans-serif;
+    font-size: 2.2rem;
+    line-height: 2.9rem;
+    text-align: center;
+    color: #fff;
+    opacity: 0.7;
+    transition: all 0.3s linear;
+}
+.footerCard > a:hover{
+    opacity: 1;
+    color: var(--text-and-bc-color);
+}
+/*---------- footerBottom ----------*/
+.lastFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.7rem 0;
+}
+.footerIcon{
+    display: flex;
+    gap: 3.5rem;
+}
+.footerInfo{
+    font-family: sans-serif;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    color: var(--main-and-btn-text-color);
+}
