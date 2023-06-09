@@ -27,8 +27,11 @@ body{
     display: flex;
     margin-top: 5rem;
     gap: 10rem;
-   
+    width: 180rem;
 
+}
+.Horseshoe_1{
+   width: 100rem;
 }
 
 .popular_img_side1 {
@@ -41,10 +44,6 @@ body{
     right: 0;
 }
 
-.Horseshoe {
-    width: 48.4rem;
-
-}
 
 .logo {
     display: flex;
