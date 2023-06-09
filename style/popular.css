@@ -1,0 +1,103 @@
+body{
+   
+}
+.popular {
+   
+}
+
+.public_h2 {
+    font-size: 6.2rem;
+    font-weight: 400;
+    line-height: 6.9rem;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 10rem;
+}
+
+.public_p {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.7rem;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 1.5rem;
+}
+
+.popular_img_side {
+    display: flex;
+    margin-top: 5rem;
+    gap: 10rem;
+   
+
+}
+
+.popular_img_side1 {
+    display: flex;
+    padding: 3rem;
+    gap: 3rem;
+    width: 94rem;
+    border-radius: 5rem;
+    background-color: #ffffff;
+    right: 0;
+}
+
+.Horseshoe {
+    width: 48.4rem;
+
+}
+
+.logo {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.logo>h3 {
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 6rem;
+    color: #222222;
+}
+
+.Horseshoe>p {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 3rem;
+    color: #636668;
+}
+
+.Horseshoe>.like {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.Horseshoe>.like>h6 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+.Horseshoe>.button {
+    display: flex;
+    padding-left: 4rem;
+    gap: 2.6rem;
+    margin-top: 7rem;
+}
+
+.btn{
+    padding: 1.5rem 5.4rem;
+    background-color: #00E0C7;
+    border-radius: 1rem;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 2.9rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+.popular_img_side1>img {
+    border-radius: 2rem;
+    height: 100%;
+
+}
