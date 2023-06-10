@@ -1,31 +1,37 @@
-.flights{
+.flights {
     position: relative;
 }
-.tpp{
+
+.tpp {
     display: flex;
     flex-direction: column;
     width: 94%;
     margin: 0 auto;
-    
+
 }
-.tppIcon{
+
+.tppIcon {
     position: absolute;
     top: 44%;
     border-radius: 50%;
     display: flex;
     align-items: center;
 }
-.tppLeft{
+
+.tppLeft {
     left: 4.5rem;
 }
-.tppRight{
+
+.tppRight {
     right: 4.5rem;
 }
-.tppIcon > img{
+
+.tppIcon>img {
     width: 100%;
     height: 100%;
 }
-.tpp > h2{
+
+.tpp>h2 {
     font-family: 'DM Serif Display', serif;
     font-size: 6.2rem;
     line-height: 112%;
@@ -34,7 +40,8 @@
     text-shadow: 0px 8px 14px rgba(0, 0, 0, 0.15);
     margin-bottom: 1.5rem;
 }
-.tpp > p{
+
+.tpp>p {
     padding: 0 37rem;
     font-family: sans-serif;
     font-weight: 600;
@@ -45,25 +52,31 @@
     opacity: 0.7;
     margin-bottom: 5rem;
 }
-.country{
+
+.country {
     display: flex;
     gap: 4rem;
     margin-bottom: 10rem;
 }
-.countryCard{
+
+.countryCard {
     width: 33.3%;
+    position: relative;
 }
-.cardTop > img{
+
+.cardTop>img {
     width: 100%;
     height: 100%;
 }
-.cardInfo{
+
+.cardInfo {
     background-color: #fff;
     display: flex;
     flex-direction: column;
     padding: 2rem;
 }
-.cardInfoTop{
+
+.cardInfoTop {
     display: flex;
     gap: 2rem;
     align-items: center;
@@ -75,11 +88,13 @@
     margin-bottom: 2rem;
 
 }
-.cardInfoBottom{
+
+.cardInfoBottom {
     display: flex;
     justify-content: space-between;
 }
-.rght{
+
+.rght {
     display: flex;
     align-items: center;
     font-family: sans-serif;
@@ -89,11 +104,13 @@
     line-height: 125%;
     color: var(--text-and-bc-color);
 }
-.rght > span >img{
+
+.rght>span>img {
     width: 100%;
     height: 100%;
 }
-.lft{
+
+.lft {
     display: flex;
     align-items: center;
     font-family: sans-serif;
@@ -102,4 +119,16 @@
     font-size: 1.6rem;
     line-height: 2rem;
     color: var(--text-and-bc-color);
+}
+
+.star_f {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.mone_f {
+    position: absolute;
+    top: 0;
+    right: 0;
 }

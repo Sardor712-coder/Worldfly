@@ -1,6 +1,8 @@
+
 .booking{
     background: #264257;
     padding: 100px 0;
+    position: relative;
 }
 .booking h2{
     font-family: 'DM Serif Display';
@@ -32,3 +34,19 @@
 .booking_card:nth-child(2){
     margin-top: 326px;
 }
+.booking_card img:last-child{
+    position: absolute;
+    bottom: 33rem;
+    left: 47rem;
+}
+.booking_card2 img:last-child{
+    position: absolute;
+    top: 27rem;
+    left: 90rem;
+}
+.booking_card3 img:last-child{
+    position: absolute;
+    bottom: 25rem;
+    left: 150rem;
+}
+
