@@ -1,5 +1,6 @@
 .tour_packages{
     padding-bottom: 10rem;
+    overflow: hidden;
 }
 .popular{
     display: flex;
@@ -19,7 +20,7 @@
     width: 100%;
 }
 .enjoy_img_1{
-    width: 30%;
+    width: 27.4%;
     justify-content: start;
 }
 .iv{
