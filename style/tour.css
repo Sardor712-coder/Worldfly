@@ -1,37 +1,88 @@
-.tour_packages{
+.tour_packages {
     padding-bottom: 10rem;
     overflow: hidden;
 }
-.popular{
+
+.popular {
     display: flex;
     justify-content: space-between;
     margin-top: 5rem;
     margin-bottom: 5rem;
 
 }
-.left_right_icon{
+
+.left_right_icon {
     display: flex;
     gap: 2rem;
 }
-.lokation{
+
+.lokation {
     display: flex;
     justify-content: space-between;
     margin-top: 1rem;
     width: 100%;
 }
-.enjoy_img_1{
+
+.enjoy_img_1 {
     width: 27.4%;
     justify-content: start;
+    position: relative;
 }
-.iv{
+
+.iv {
     display: flex;
-    justify-content: start;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: sans-serif;
 }
-.enjoy_img_1>img{
+
+.enjoy_img_1>img {
     border-radius: 1rem;
 }
-.enjoy{
+
+.enjoy {
     display: flex;
     gap: 5rem;
-    
+}
+.lokation P{
+    font-family: sans-serif;
+}
+
+.star1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.mone1 {
+    position: absolute;
+    top: 0;
+    right: -3rem;
+}
+.star2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.mone2 {
+    position: absolute;
+    top: 0;
+    right: -3rem;
+}
+.star3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.mone3 {
+    position: absolute;
+    top: 0;
+    right: -3rem;
+}
+.star4 {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
