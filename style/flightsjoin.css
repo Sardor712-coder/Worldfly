@@ -1,0 +1,105 @@
+.flights{
+    position: relative;
+}
+.tpp{
+    display: flex;
+    flex-direction: column;
+    width: 94%;
+    margin: 0 auto;
+    
+}
+.tppIcon{
+    position: absolute;
+    top: 44%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+.tppLeft{
+    left: 4.5rem;
+}
+.tppRight{
+    right: 4.5rem;
+}
+.tppIcon > img{
+    width: 100%;
+    height: 100%;
+}
+.tpp > h2{
+    font-family: 'DM Serif Display', serif;
+    font-size: 6.2rem;
+    line-height: 112%;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0px 8px 14px rgba(0, 0, 0, 0.15);
+    margin-bottom: 1.5rem;
+}
+.tpp > p{
+    padding: 0 37rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.7rem;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-bottom: 5rem;
+}
+.country{
+    display: flex;
+    gap: 4rem;
+    margin-bottom: 10rem;
+}
+.countryCard{
+    width: 33.3%;
+}
+.cardTop > img{
+    width: 100%;
+    height: 100%;
+}
+.cardInfo{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.cardInfoTop{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 3.2rem;
+    line-height: 125%;
+    color: var(--text-and-bc-color);
+    margin-bottom: 2rem;
+
+}
+.cardInfoBottom{
+    display: flex;
+    justify-content: space-between;
+}
+.rght{
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    gap: 1.6rem;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 125%;
+    color: var(--text-and-bc-color);
+}
+.rght > span >img{
+    width: 100%;
+    height: 100%;
+}
+.lft{
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    gap: 1rem;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: var(--text-and-bc-color);
+}
